@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.artactivo.layouts.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Header"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur sed quam quis finibus. Aenean sagittis egestas felis et fringilla. Duis tincidunt in enim pretium tincidunt. Fusce ac velit tincidunt, vestibulum justo ut, auctor ex. Nam vehicula odio vitae nisi tempus luctus. Praesent eget massa sagittis, blandit quam at, scelerisque ante. Vivamus at leo eu dui consequat ornare. Donec non nunc lacus.\n\nPraesent suscipit ex vel nibh blandit malesuada sed vitae ipsum. Donec euismod id tellus sed rhoncus. Vestibulum enim arcu, semper ultricies purus hendrerit, viverra sodales lorem. Etiam ex erat, suscipit quis magna a, dapibus blandit eros. Ut porta turpis quis facilisis mollis. Morbi congue gravida nulla. Vivamus vel dui vel felis porta porta a et leo. Vestibulum sollicitudin ex a purus euismod fringilla. Suspendisse potenti."
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@android:drawable/bottom_bar"
+            android:gravity="center_vertical">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:text="Button 1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:text="Button 2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
